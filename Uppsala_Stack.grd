@@ -1,0 +1,21 @@
+[general]
+[data]
+datatype=FLT4S
+nodatavalue=nan
+byteorder=little
+nbands=9
+bandorder=BIL
+minvalue=0:0:0:0:0:0:0:-3.68934881474191032e+19:-3.68934881474191032e+19
+maxvalue=6077:6109:6834:7276:6219:6564:4896:3.68934881474191032e+19:3.68934881474191032e+19
+categorical=FALSE
+[description]
+layername=B2:B3:B4:B8:B6:B7:B11:NDVI:NDVI_sd_5
+[georeference]
+nrows=1604
+ncols=1183
+xmin=642547.550000000047
+ymin=6629659.91999999993
+xmax=654377.550000000047
+ymax=6645699.91999999993
+projection=+proj=utm +zone=33 +datum=WGS84 +units=m +no_defs
+wkt=PROJCRS["WGS 84 / UTM zone 33N",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1,ID["EPSG",9001]]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433,ID["EPSG",9122]]]],CONVERSION["Transverse Mercator",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",15,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1,ID["EPSG",9001]]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1,ID["EPSG",9001]]]]
