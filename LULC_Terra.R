@@ -40,7 +40,7 @@ mapview(rgb_raster_le, rgb = TRUE, at = breaks, map.types = "Esri.WorldImagery",
 
 # Extract values from terra object for Uppsala
 extr <- extract(sen_le, vect(trainSites), df=TRUE)
-extr <- merge(extr, trainSites)
+extr <- merge(extr, trainSites, by.x="ID", by.y="PolygonID")
 head(extr)
 
 # Sample training data
